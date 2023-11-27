@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IUDIGITAL</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <nav>
+    <div class="nav-main">
         <div>
             <img src="logo1.svg" alt="logo" >
         </div>
-        <ul>
+        <ul class="menu">
             <li>
                 <a href="#">Productos</a>
             </li>
@@ -18,62 +20,61 @@
                 <a href="#">Car</a>
             </li>
             <li>
-                <a href="#">Login</a>
-            </li>
-            <li>
                 <a href="formulario.html">Nuevo Producto</a>
             </li>
+            <li>
+                <a href="#">Login</a>
+            </li>
+           
         </ul>
+    </div>  
     </nav>
-
-    <div> 
-        <div>
-            <img src="bici.png" alt="Imagen" width="200" height="200">
-            <div>
+       <div class="contenedor">   
+        <div class="card">
+            <img src="bicicleta.jpg" alt="Imagen">
+            <div  class="card-con">
                 <h4>bicileta 4x4</h4>
                 <p>$26.00</p>
                 <button>Add Car</button>
             </div>
         </div>
-    </div>   <!-- Primer producto-->  
-    <br>
-    <br>
-    <div>
-        <div>
-            <img src="Celular.jpg" alt="Imagen" width="200" height="200">
-            <div>
+     <!-- Primer producto-->  
+    
+    
+        <div class="card">
+            <img src="celular.jpg" alt="Imagen">
+            <div class="card-con">
                 <h4>Celular Iphone</h4>
                 <p>$38.000</p>
                 <button>Add Car</button>
             </div>
         </div>
-    </div> <!-- Segundo producto-->  
-    <br>
-    <br>
-
-    <div>
-        <div>
-            <img src="gafas.jpg" alt="Imagen" width="200" height="200">
-            <div>
+ <!-- Segundo producto-->  
+  
+      <div class="card">
+            <img src="lentes.jpg" alt="Imagen" >
+            <div class="card-con">
                 <h4>lentes de sol</h4>
                 <p>$12.000</p>
                 <button>Add Car</button>
             </div>
-        </div>
-    </div> <!-- Tercer producto-->  
-    <br>
-    <br>
-
-    <div>
-        <div>
-            <img src="mesa.jpg" alt="Imagen" width="200" height="200">
-            <div>
+       </div>
+    <!-- Tercer producto-->  
+    
+    <div class="card">
+            <img src="mesa.jpg" alt="Imagen">
+            <div class="card-con">
                 <h4>Mesa Comedor</h4>
                 <p>$140.000</p>
                 <button>Add Car</button>
             </div>
-        </div>
-    </div> <!-- Cuarto producto-->  
+  </div>
+   <!-- Cuarto producto-->  
+
+</div>  
+    
+
+
 
 
 </body>
