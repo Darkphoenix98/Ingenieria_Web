@@ -132,8 +132,7 @@ form button{
     border: 0px;
     cursor: pointer;
     border-radius: 7px;
-    
-
+   
 }
 
 form button:hover{
@@ -150,6 +149,7 @@ form button:hover{
         margin: 0 auto;
         border-radius: 7px;
      
+        justify-content: center;
         
 
     }
