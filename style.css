@@ -132,7 +132,9 @@ form button{
     border: 0px;
     cursor: pointer;
     border-radius: 7px;
-   
+    display: flex;
+    justify-content: center;
+
 }
 
 form button:hover{
@@ -149,7 +151,6 @@ form button:hover{
         margin: 0 auto;
         border-radius: 7px;
      
-        justify-content: center;
         
 
     }
@@ -183,3 +184,44 @@ form button:hover{
     border-radius: 4px;
     box-sizing: border-box;
   }
+
+  span {
+    color:darkcyan;
+    font-size:x-small;
+	font-weight:bold;
+	display:inline-block;
+
+  }
+/** Carrito*/
+ 
+table {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+    transition: 0.3s;
+    background-color:white;
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 7px;
+    padding: 10px;
+    
+}
+
+thead {
+    background-color:#e94949;
+    color: white;
+    
+}
+
+tbody, tfoot {
+    background-color: #f2f2f2;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tfoot {
+    font-weight: bold;
+}

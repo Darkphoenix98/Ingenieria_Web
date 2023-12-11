@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function () {
    
     const formulario = document.getElementById('formulario');
@@ -17,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (name.trim() === '') {
             document.getElementById('nameError').textContent = 'Campo requerido';
-        }
+        } 
 
         if (price.trim() === '') {
             document.getElementById('priceError').textContent = 'Campo requerido';
